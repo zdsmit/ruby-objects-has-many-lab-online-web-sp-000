@@ -13,7 +13,7 @@ class Artist
   end
 
   def songs
-    @songs
+    Songs.all.select{|song|song.artist == self}
   end
 
 end
