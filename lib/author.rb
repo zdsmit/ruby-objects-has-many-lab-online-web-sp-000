@@ -7,7 +7,7 @@ class Author
     @@posts << self
   end
 
-  def posts  
+  def posts
     @@posts
   end
 
