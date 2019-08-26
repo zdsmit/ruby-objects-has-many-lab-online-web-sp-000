@@ -4,11 +4,11 @@ class Author
 
   def initialize(name)
     @name = name
-    @@posts << self
+    @@all << self
   end
 
   def self.all
-    @@posts
+    @@all?
   end
 
   def posts
